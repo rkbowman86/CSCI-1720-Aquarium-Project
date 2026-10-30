@@ -33,5 +33,5 @@ public class Aquarium {
     /** Draws bubbles in the aquarium. */
     public static void drawBubbles() {
         // Bubbles will be drawn here later.
-    }
+    } // TEST
 }

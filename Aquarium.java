@@ -14,12 +14,12 @@ public class Aquarium {
         drawWater(p, (new Color(135, 206, 235)), -400,-300);
         drawSand(p, (new Color(230, 199, 139)), -400, -300);
 
-        // Draws seagrass and resets pen
+        // Draws seagrass
         for (int i = 0; i < 20; i++) {
             drawSeaGrass(p, (int) (Math.random() * 60) + 50, Color.GREEN, (int)(Math.random() * 800) -400, -185);
         }
 
-        // Draws seashells and resets pen
+        // Draws seashells
         for (int i = 0; i < 6; i++) {
             drawSeashell(p, (int) (Math.random() * 10) + 20, Color.WHITE, (int)(Math.random() * 800) -400, -230);
         }
@@ -449,5 +449,4 @@ public class Aquarium {
         p.finishFill();
         p.turnRight(120);
     }
-
 }
